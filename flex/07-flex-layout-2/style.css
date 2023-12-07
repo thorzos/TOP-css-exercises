@@ -44,6 +44,7 @@ body {
 
 .sidebar {
   flex: none;
+  width: 250px;
 }
 
 a {
@@ -60,7 +61,7 @@ ul {
   padding-top: 10px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
 }
 
 .header {
@@ -69,6 +70,7 @@ ul {
   display: flex;
   align-items: center;
   padding-left: 12px;
+  height: 50px;
 }
 
 .footer {
@@ -78,8 +80,13 @@ ul {
 }
 
 .cards {
-  padding-left: 30px;
-  padding-top: 30px;
+  padding: 30px 30px 30px 30px;
   display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
 }
 
+.card {
+  padding: 10px 10px 10px 10px;
+  width: 250px;
+}
